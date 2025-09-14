@@ -1,16 +1,18 @@
+// Clase concreta que representa un Libro en la biblioteca
+// Extiende RecursoBiblioteca e implementa la interfaz Prestable
 public class Revista extends RecursoBiblioteca implements Prestable {
 
-    public Revista(String titulo, String autor) {
-        super(titulo, autor);
+    public Revista(String titulo, String autor, int anio) {
+        super(titulo, autor, anio);
     }
 
     @Override
     public void prestar() {
         if (!prestado) {
             prestado = true;
-            System.out.println("El libro '" + titulo + "' ha sido prestado.");
+            System.out.println("La revista '" + titulo + "' ha sido prestada.");
         } else {
-            System.out.println("El libro '" + titulo + "' ya está prestado.");
+            System.out.println("La revista '" + titulo + "' ya estaba prestada.");
         }
     }
 
@@ -18,9 +20,9 @@ public class Revista extends RecursoBiblioteca implements Prestable {
     public void devolver() {
         if (prestado) {
             prestado = false;
-            System.out.println("El libro '" + titulo + "' ha sido devuelto.");
+            System.out.println("La revista '" + titulo + "' ha sido devuelta.");
         } else {
-            System.out.println("El libro '" + titulo + "' no estaba prestado.");
+            System.out.println("La revista '" + titulo + "' no estaba prestada.");
         }
     }
 
