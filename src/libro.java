@@ -1,5 +1,5 @@
 public class libro {
- private String titulo;
+    private String titulo;
     private String autor;
     private int anioPublicacion;
     private String genero;
@@ -11,57 +11,43 @@ public class libro {
         this.autor = autor;
         this.anioPublicacion = anioPublicacion;
         this.genero = genero;
-        this.disponible = disponible;
+        this.disponible = true;
     }
 
     // Getters y Setters
-    public String getTitulo() {
-        return titulo;
-    }
 
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
-    }
+    public String getTitulo() {
+         return titulo; }
+
 
     public String getAutor() {
-        return autor;
-    }
+         return autor; }
 
-    public void setAutor(String autor) {
-        this.autor = autor;
-    }
 
-    public int getAnioPublicacion() {
-        return anioPublicacion;
-    }
+    public int getAnio() { 
+        return anioPublicacion; }
 
-    public void setAnioPublicacion(int anioPublicacion) {
-        this.anioPublicacion = anioPublicacion;
-    }
+    public String getGenero() { 
+        return genero; }
 
-    public String getGenero() {
-        return genero;
-    }
+    public boolean estaDisponible() { 
+        return disponible; }
 
-    public void setGenero(String genero) {
-        this.genero = genero;
-    }
-
-    public boolean isDisponible() {
-        return disponible;
-    }
 
     public void setDisponible(boolean disponible) {
-        this.disponible = disponible;
-    }
+         this.disponible = disponible; }
+
 
     // Método para mostrar la información del libro
     public void mostrarInfo() {
+
+        System.out.println("----- Información del Libro -----");
         System.out.println("Título: " + titulo);
         System.out.println("Autor: " + autor);
         System.out.println("Año de Publicación: " + anioPublicacion);
         System.out.println("Género: " + genero);
         System.out.println("Disponible: " + (disponible ? "Sí" : "No"));
+        System.out.println("--------------------------------");
     }
 }
 
