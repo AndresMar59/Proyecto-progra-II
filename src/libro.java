@@ -38,10 +38,9 @@ public class libro {
          this.disponible = disponible; }
 
 
-   
-
     // Método para mostrar la información del libro
     public void mostrarInfo() {
+
         System.out.println("----- Información del Libro -----");
         System.out.println("Título: " + titulo);
         System.out.println("Autor: " + autor);
@@ -51,3 +50,4 @@ public class libro {
         System.out.println("--------------------------------");
     }
 }
+
