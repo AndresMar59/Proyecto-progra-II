@@ -1,13 +1,17 @@
 import java.util.ArrayList;
+import java.util.List;
 import java.io.*; //Para manero de ingreso y salida de datos para el literal 5
 
 public class biblioteca {
 
+    //private List<libro> libros;
     private ArrayList<usuario> usuarios;
 
     public biblioteca() {
 
         usuarios = new ArrayList<>();
+        //this.libros = new ArrayList<>();
+
     }
 
     public void registrarUsuario(String nombre, String Id) {
