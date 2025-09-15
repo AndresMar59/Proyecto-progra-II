@@ -1,5 +1,6 @@
 // Clase abstracta que define atributos comunes para todos los recursos
 // No se puede instanciar directamente, pero sirve como base para Libros, Revista y DVD
+/*
 public abstract class RecursoBiblioteca {
     protected String titulo;
     protected String autor;
@@ -33,4 +34,4 @@ public abstract class RecursoBiblioteca {
     public String toString() {
         return titulo + " - " + autor + " (" + anio + ") " + (prestado ? "[Prestado]" : "[Disponible]");
     }
-}
+} */

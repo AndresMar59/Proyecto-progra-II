@@ -1,5 +1,6 @@
 // Clase concreta que representa un Libro en la biblioteca
 // Extiende RecursoBiblioteca e implementa la interfaz Prestable
+/*
 public class Revista extends RecursoBiblioteca implements Prestable {
 
     public Revista(String titulo, String autor, int anio) {
@@ -30,4 +31,4 @@ public class Revista extends RecursoBiblioteca implements Prestable {
     public boolean estaPrestado() {
         return prestado;
     }
-}
+} */

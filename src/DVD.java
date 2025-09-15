@@ -1,5 +1,7 @@
 // Clase concreta que representa un Libro en la biblioteca
 // Extiende RecursoBiblioteca e implementa la interfaz Prestable
+
+/*
 public class DVD extends RecursoBiblioteca implements Prestable {
 
     public DVD(String titulo, String autor, int anio) {
@@ -30,4 +32,4 @@ public class DVD extends RecursoBiblioteca implements Prestable {
     public boolean estaPrestado() {
         return prestado;
     }
-}
+} */

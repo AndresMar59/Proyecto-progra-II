@@ -1,10 +1,16 @@
 // Clase concreta que representa un Libro en la biblioteca
 // Extiende RecursoBiblioteca e implementa la interfaz Prestable
+/*
 public class Libros extends RecursoBiblioteca implements Prestable {
 
-    public Libros(String titulo, String autor, int anio) {
+    private String genero;
+
+    public Libros(String titulo, String autor, int anio, String genero) {
         super(titulo, autor, anio);
+        this.genero = genero;
     }
+
+
 
     @Override
     public void prestar() {
@@ -30,4 +36,4 @@ public class Libros extends RecursoBiblioteca implements Prestable {
     public boolean estaPrestado() {
         return prestado;
     }
-}
+} */
